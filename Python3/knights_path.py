@@ -34,7 +34,7 @@ def lookup_notation(board, location):
     return invert.get(location)
 
 
-def find_path(board, origin, destination, depth, paths=dict(), path=tuple()):
+def find_path(board, origin, destination, depth, paths, path):
     path = path + tuple([lookup_notation(board, origin)])
     if origin == destination:
         paths[path] = True
@@ -53,9 +53,9 @@ def shortest_path(root):
     return sorted(list(root), key=len)[0]
 
 
-def main(origin, destination, depth=20):
+def main(origin, destination, depth=6):
     board = create_board()
     origin = lookup_coords(board, origin)
     destination = lookup_coords(board, destination)
-    root = find_path(board, origin, destination, depth)
+    root = find_path(board, origin, destination, depth, {}, ())
     return sorted(list(root), key=len)
