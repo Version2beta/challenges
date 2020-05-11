@@ -80,3 +80,18 @@ Katharina suggests it should not be too challenging to determine that the probab
 
 In order to prove yourself worthy of visiting the great oracle you must calculate the probability of finding him in a square numbered room in the 1000 by 1000 lair in which he has been wandering.
 (Give your answer rounded to 12 decimal places)
+
+# Counting Sundays [Project Euler problem 19](https://projecteuler.net/problem=19)
+
+You are given the following information, but you may prefer to do some research for yourself.
+
+    1 Jan 1900 was a Monday.
+    Thirty days has September,
+    April, June and November.
+    All the rest have thirty-one,
+    Saving February alone,
+    Which has twenty-eight, rain or shine.
+    And on leap years, twenty-nine.
+    A leap year occurs on any year evenly divisible by 4, but not on a century unless it is divisible by 400.
+
+How many Sundays fell on the first of the month during the twentieth century (1 Jan 1901 to 31 Dec 2000)?
