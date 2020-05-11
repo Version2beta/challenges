@@ -27,6 +27,8 @@ There are many variations of rules but in the most popular game the players will
 When a player is able to finish on their current score it is called a "checkout" and the highest checkout is 170: T20 T20 D25 (two treble 20s and double bull).
 
 There are exactly eleven distinct ways to checkout on a score of 6:
+
+```
 D3 	  	 
 D1 	D2 	 
 S2 	D2 	 
@@ -38,6 +40,7 @@ S1 	S3 	D1
 D1 	D1 	D1
 D1 	S2 	D1
 S2 	S2 	D1
+```
 
 Note that D1 D2 is considered different to D2 D1 as they finish on different doubles. However, the combination S1 T1 D1 is considered the same as T1 S1 D1.
 
@@ -58,7 +61,7 @@ Return the shortest path a Knight can take from the origin to the destination
 
 ## Wandering Robot [Euler problem 575](https://projecteuler.net/problem=575)
 
-
+*Solved with Anthony Elle, who had also recently shared [Infinite Series' Markov Chains video](https://www.youtube.com/watch?v=63HHmjlh794) with me.*
 
 It was quite an ordinary day when a mysterious alien vessel appeared as if from nowhere. After waiting several hours and receiving no response it is decided to send a team to investigate, of which you are included. Upon entering the vessel you are met by a friendly holographic figure, Katharina, who explains the purpose of the vessel, Eulertopia.
 
