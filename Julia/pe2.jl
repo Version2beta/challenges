@@ -8,5 +8,5 @@ function sum_even_reduce(fibs::Array{Int64,1})
     reduce((x, y)->iseven(y) ? x + y : x, fibs)
 end
 
-@time result = fibs_less_than(4_000_000, [0, 1]) |> sum_even_reduce
+@time (result = fibs_less_than(4_000_000, [0, 1]) |> sum_even_reduce)
 println(result)
